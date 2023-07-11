@@ -1,7 +1,7 @@
 import express from "express"
-import appRoutes from "./routes";
+import appRoutes from "./routes.js";
 
-const app = express.Router()
+const app = express()
 
 app.use(appRoutes)
 appRoutes.use(express.json())

@@ -1,4 +1,4 @@
-import { receiveMessageService } from "../services/message.service" 
+import { receiveMessageService } from "../services/message.service.js" 
 
 export const receiveMessage = async (req, res) => {
     const msg = req.body.textMsg
